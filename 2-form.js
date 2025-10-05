@@ -1,0 +1,2 @@
+import"./assets/modulepreload-polyfill-B5Qt9EMX.js";/* empty css                      */const r=document.querySelector(".feedback-form"),e=r.elements.email,t=r.elements.message;e.addEventListener("focus",()=>{e.setAttribute("placeholder","Type area")});e.addEventListener("blur",()=>{e.removeAttribute("placeholder")});t.addEventListener("focus",()=>{t.setAttribute("placeholder","Type area")});t.addEventListener("blur",()=>{t.removeAttribute("placeholder")});
+//# sourceMappingURL=2-form.js.map

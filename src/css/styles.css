@@ -126,6 +126,16 @@ height: 296px;
   outline: none;
 }
 
+.feedback-form input::placeholder,
+.feedback-form textarea::placeholder {
+  color: transparent;
+  transition: color 250ms ease-in-out;
+}
+
+.feedback-form input:focus::placeholder,
+.feedback-form textarea:focus::placeholder {
+  color: #808080;
+}
 
 .feedback-form button {
   padding: 8px 16px;
